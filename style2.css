@@ -22,6 +22,7 @@ body {
   flex-shrink: 0;
   background-color: black;
   display: flex;
+  margin-top: -4px;
 }
 .secondlineheader {
   color: var(--White, #fff);
@@ -48,7 +49,6 @@ body {
 .secondlinedivp {
   color: var(--White, #fff);
   font-feature-settings: "liga" off, "clig" off;
-  font-family: Outfit;
   font-size: 22px;
   font-weight: 400;
   line-height: 32px;
@@ -57,12 +57,12 @@ body {
 .secondlinedivp2 {
   color: var(--White, #fff);
   font-feature-settings: "liga" off, "clig" off;
-  font-family: Outfit;
   font-size: 22px;
   font-weight: 400;
   line-height: 32px;
   width: 540px;
   margin-top: 32px;
+  font-family: Outfit;
 }
 .secondlinediv {
   margin-top: 104px;
@@ -80,15 +80,189 @@ body {
 }
 .lastlinetext {
   color: var(--Almost-Black, #151515);
-  font-family: Outfit;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   width: 430px;
   margin-top: 80px;
   margin-left: 140px;
+  font-family: Outfit;
 }
-.lastlineicons {
+.icondiv {
+  height: 20px;
+  margin-top: 80px;
   margin-left: 280px;
-  margin-top: -55px;
+}
+.firstline {
+  position: relative;
+}
+.icon2 {
+  margin-left: 20px;
+}
+.icon3 {
+  margin-left: 20px;
+}
+.icon1:hover {
+  transition: 1s;
+  background-color: white;
+}
+.icon2:hover {
+  background-color: white;
+  transition: 1s;
+}
+.icon3:hover {
+  transition: 1s;
+  background-color: white;
+}
+.linki {
+  padding-left: 32px;
+  padding-right: 35px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: absolute;
+  left: 212px;
+  color: var(--White, #fff);
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 3.636px;
+  text-decoration: none;
+  background-color: black;
+}
+.linki:hover {
+  background: var(--Gold, #d5966c);
+  transition: 1s;
+}
+.linki:hover + .linkicon {
+  background-color: black;
+}
+.linkicon {
+  position: absolute;
+  left: 156px;
+}
+@media (max-width: 1300px) {
+  .ruka {
+    width: 768px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .secondline {
+    width: 768px;
+    height: 436px;
+  }
+  .secondlineheader {
+    margin-top: 88px;
+    margin-left: 39px;
+    font-size: 55px;
+    line-height: 50px;
+  }
+  .secondlinediv {
+    margin-top: 88px;
+    margin-left: 68px;
+  }
+  .secondlinedivh1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .secondlinedivp {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .secondlinedivp2 {
+    width: 380px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .lastline {
+    width: 768px;
+    height: 216px;
+  }
+  .lastlineheader {
+    margin-left: 39px;
+    width: 110.05px;
+    height: 40px;
+    margin-top: 56px;
+  }
+  .lastlinetext {
+    width: 281px;
+    margin-top: 56px;
+    margin-left: 65px;
+  }
+  .icondiv {
+    width: 100px;
+    height: 20px;
+    margin-top: 56px;
+    margin-left: 133px;
+  }
+  .lastlineicons {
+    width: 100px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .linki {
+    left: 95px;
+  }
+  .linkicon {
+    left: 39px;
+  }
+}
+@media (max-width: 780px) {
+  .ruka {
+    width: 375px;
+    height: 550px;
+  }
+  .linkicon {
+    left: 0px;
+  }
+  .linki {
+    left: 56px;
+  }
+  .secondline {
+    width: 375px;
+    height: 493px;
+    flex-direction: column;
+  }
+  .secondlineheader {
+    margin-top: 48px;
+    margin-left: 16px;
+    font-size: 50px;
+    line-height: 45px;
+  }
+  .secondlinediv {
+    margin-top: 48px;
+    margin-left: 16px;
+  }
+  .secondlinedivp {
+    margin-top: 20px;
+  }
+  .secondlinedivp2 {
+    width: 320px;
+    margin-top: 20px;
+  }
+  .lastline {
+    width: 375px;
+    height: 336px;
+    flex-direction: column;
+  }
+  .lastlineheader {
+    margin-top: 48px;
+    margin-left: 32px;
+  }
+  .lastlinetext {
+    margin-top: 38px;
+    margin-left: 32px;
+    width: 331px;
+  }
+  .lastlineicons {
+    width: 100px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .icondiv {
+    margin-top: 38px;
+    margin-left: 32px;
+  }
 }
