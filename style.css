@@ -187,8 +187,6 @@
   width: 430px;
   margin-top: 80px;
   margin-left: 140px;
-  font-family: Outfit;
-
 }
 .footericons {
   width: 110px;
@@ -448,5 +446,8 @@
   .linkicon {
     left: 350px;
     top: 322px;
+  }
+  .footericons{
+    margin-left: -233px;
   }
 }
