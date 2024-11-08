@@ -92,6 +92,7 @@ body {
   height: 20px;
   margin-top: 80px;
   margin-left: 280px;
+  position: relative;
 }
 .firstline {
   position: relative;
@@ -101,6 +102,9 @@ body {
 }
 .icon3 {
   margin-left: 20px;
+}
+.icon1 {
+  transition: 1s;
 }
 .linki {
   padding-left: 32px;
@@ -129,6 +133,11 @@ body {
   left: 156px;
   opacity: 1;
   transition: 2s;
+}
+#hovericon {
+  display: none;
+  position: absolute;
+  transition: 1s;
 }
 @media (max-width: 1300px) {
   .ruka {
@@ -206,7 +215,7 @@ body {
   .linkicon1 {
     left: 0px;
   }
-  
+
   .secondline {
     width: 375px;
     height: 493px;

@@ -13,3 +13,16 @@ button.addEventListener("mouseleave", () => {
   let y = document.getElementById("linkisicon1");
   y.style.opacity = 0;
 });
+let hover = document.getElementById("hovericon1");
+hover.addEventListener("mouseover", () => {
+  let y = document.getElementById("hovericon1");
+  y.style.opacity = 0;
+  let x = document.getElementById("hovericon");
+  x.style.display = "inline-block";
+});
+hover.addEventListener("mouseleave", () => {
+  let y = document.getElementById("hovericon1");
+  y.style.opacity = 1;
+  let x = document.getElementById("hovericon");
+  x.style.display = "none";
+});
