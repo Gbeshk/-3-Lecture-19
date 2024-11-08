@@ -73,17 +73,20 @@
   top: 414px;
   left: 396px;
   white-space: nowrap;
+  transition: 2s;
 }
-.linki:hover {
-  background: var(--Gold, #d5966c);
-  color: white;
-  transition: 1s;
+.linkicon1 {
+  position: absolute;
+  left: 603px;
+  top: 414px;
+  opacity: 0;
+  transition: 2s;
 }
-
 .linkicon {
   position: absolute;
-  left: 600px;
+  left: 603px;
   top: 414px;
+  transition: 2s;
 }
 .section1header {
   color: var(--Almost-Black, #151515);
@@ -333,7 +336,11 @@
     top: 483px;
   }
   .linkicon {
-    left: 590px;
+    left: 596px;
+    top: 483px;
+  }
+  .linkicon1 {
+    left: 596px;
     top: 483px;
   }
   .headerdiv {
@@ -444,10 +451,14 @@
     top: 322px;
   }
   .linkicon {
-    left: 350px;
+    left: 354px;
     top: 322px;
   }
-  .footericons{
+  .linkicon1 {
+    left: 354px;
+    top: 322px;
+  }
+  .footericons {
     margin-left: -233px;
   }
 }

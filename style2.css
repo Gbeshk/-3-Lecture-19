@@ -102,18 +102,6 @@ body {
 .icon3 {
   margin-left: 20px;
 }
-.icon1:hover {
-  transition: 1s;
-  background-color: white;
-}
-.icon2:hover {
-  background-color: white;
-  transition: 1s;
-}
-.icon3:hover {
-  transition: 1s;
-  background-color: white;
-}
 .linki {
   padding-left: 32px;
   padding-right: 35px;
@@ -128,17 +116,19 @@ body {
   letter-spacing: 3.636px;
   text-decoration: none;
   background-color: black;
+  transition: 2s;
 }
-.linki:hover {
-  background: var(--Gold, #d5966c);
-  transition: 1s;
-}
-.linki:hover + .linkicon {
-  background-color: black;
+.linkicon1 {
+  position: absolute;
+  left: 156px;
+  opacity: 0;
+  transition: 2s;
 }
 .linkicon {
   position: absolute;
   left: 156px;
+  opacity: 1;
+  transition: 2s;
 }
 @media (max-width: 1300px) {
   .ruka {
@@ -198,6 +188,9 @@ body {
   .linkicon {
     left: 39px;
   }
+  .linkicon1 {
+    left: 39px;
+  }
 }
 @media (max-width: 780px) {
   .ruka {
@@ -210,6 +203,10 @@ body {
   .linki {
     left: 56px;
   }
+  .linkicon1 {
+    left: 0px;
+  }
+  
   .secondline {
     width: 375px;
     height: 493px;
